@@ -1,0 +1,15 @@
+<project default="run">
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="build"/>
+        <javac srcdir="src" destdir="build" includeantruntime="false"/>
+    </target>
+
+    <target name="run" depends="clean, compile">
+        <java classpath="build" classname="leetcode.Main"/> 
+    </target>
+</project>
