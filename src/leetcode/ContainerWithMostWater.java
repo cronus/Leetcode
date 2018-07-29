@@ -16,6 +16,11 @@ class ContainerWithMostWater {
     ContainerWithMostWater() {
     }
 
+    public int algorithm(int[] height) {
+
+        return 0;
+    }
+
     public int bruteForce(int[] height) {
         int left, right;
         int width;
@@ -35,7 +40,6 @@ class ContainerWithMostWater {
                 }
             }
         }
-        
         return max_area;
     }
 }
