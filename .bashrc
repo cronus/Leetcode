@@ -116,7 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export DISPLAY=localhost:0
+export DISPLAY=localhost:0.0
 # GoLang
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
